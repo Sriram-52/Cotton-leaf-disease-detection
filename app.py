@@ -26,7 +26,7 @@ session = InteractiveSession(config=config)
 app = Flask(__name__)
 
 
-MODEL_PATH = 'models/model_resnet50.h5'
+MODEL_PATH = 'models/model_vgg19.h5'
 
 
 model = load_model(MODEL_PATH)
